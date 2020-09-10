@@ -26,7 +26,7 @@ As cores seguem o mesmo padrão já explicado. Não foram usadas outras cores, e
 C)
 
 Para uma visulização mais clara e ampla, o mapa foi criado em nova página.
-Foram criados botões de navegação ao lado esquerdo para fácil acesso.
+Foram criados botões de navegação ao lado direito para fácil acesso.
 O tamanho dos pontos representa o valor das hospedagens.
 Como são diversas as quantidades de diárias mínimas, caso fosse utilizada a coluna pura para criação de legenda em cor, seria confuso identifica-las no mapa.
 Desta forma, foi criada coluna condicional com pequenos 'ranges', diminuindo assim as cores das legendas.
@@ -36,4 +36,4 @@ D)
 
 Por fim, foi utilizado gráfico de linha com ANO e MÊS no eixo X.
 O gráfico de linha funciona muito bem com linhas temporais.
-Além disso, da forma como foi criado, utilizando-se da função de DRILL DOWN, é possível entender a evolução temporal (padrão) e também a média de avaliações por mês.
+Além disso, da forma como foi criado, utilizando-se da função de DRILL DOWN, é possível entender a evolução temporal (padrão) e também o somatório de avaliações por mês.
