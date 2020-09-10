@@ -8,7 +8,7 @@ Assim, além melhorar a forma como é disposto assim que apresentado, ganha-se n
 Cabe-se ressaltar que não há prejuízo na informação, pois é possível usar da função DRILL DOWN para selecionar os bairros.
 
 As colunas horizontais são muito boas para apresentar claramente a diferença de valores.
-Além disso, considerando o formato da visualização, e a quantidade de valores no eixo Y, as colunas vertificais se apresentam a melhor solução.
+Além disso, considerando o formato da visualização, e a quantidade de valores no eixo Y, as colunas horizontais se apresentam a melhor solução.
 
 As cores utilizadas foram escolhidas da paleta de cores da logo da empresa Airbnb.
 Feito degradé sutil, clareando labels com menos valores.
