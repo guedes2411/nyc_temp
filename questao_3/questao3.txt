@@ -1,6 +1,6 @@
 Questão 3
 
-O dataset fornecido são de dados abertos, preenchidos pelo próprio usuário que cadastrou seu imóvel no Airbnb. Logo, minha primeira preocupação seria a qualidade dessa informação.
+O dataset fornecido é de dados abertos, preenchidos pelo próprio usuário que cadastrou seu imóvel no Airbnb. Logo, minha primeira preocupação seria a qualidade dessa informação.
 
 Minha experiência e conhecimento são extrações e tratamentos de dados utilizando SQL e/ou Power Query.
 Porém, tais ferramentas são melhor quanto utilizadas com datasets mais confiáveis, como é o caso do que uso hoje, do ERP da minha atual empresa.
