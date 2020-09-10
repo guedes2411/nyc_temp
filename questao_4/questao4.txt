@@ -1,0 +1,39 @@
+Questão 4
+
+A)
+
+A coluna neighbourhood contém muitos valores para ser apresentada diretamente na visualização.
+Desta forma, foi decido por inserir acima o seu grupo: neighbourhood_group.
+Assim, além melhorar a forma como é disposto assim que apresentado, ganha-se na organização, pois os bairros são filtrados pelos seus grupos.
+Cabe-se ressaltar que não há prejuízo na informação, pois é possível usar da função DRILL DOWN para selecionar os bairros.
+
+As colunas horizontais são muito boas para apresentar claramente a diferença de valores.
+Além disso, considerando o formato da visualização, e a quantidade de valores no eixo Y, as colunas vertificais se apresentam a melhor solução.
+
+As cores utilizadas foram escolhidas da paleta de cores da logo da empresa Airbnb.
+Feito degradé sutil, clareando labels com menos valores.
+
+
+B)
+
+Desta vez, temos apenas três valores no eixo X, logo, a melhor forma de apresentar são com colunas verticais.
+Apesar de parecer repetitivo e simples, gráficos em colunas são os mais fáceis de serem compreendidos pelo cérebro humano, conforme descrito pela autora Cole Nussbaumer Knaflic.
+A mesma autora não recomendao uso de gráficos de pizza, o que no passado seria uma escolha normal neste caso.
+
+As cores seguem o mesmo padrão já explicado. Não foram usadas outras cores, evitando um cansaço visual.
+
+
+C)
+
+Para uma visulização mais clara e ampla, o mapa foi criado em nova página.
+Foram criados botões de navegação ao lado esquerdo para fácil acesso.
+O tamanho dos pontos representa o valor das hospedagens.
+Como são diversas as quantidades de diárias mínimas, caso fosse utilizada a coluna pura para criação de legenda em cor, seria confuso identifica-las no mapa.
+Desta forma, foi criada coluna condicional com pequenos 'ranges', diminuindo assim as cores das legendas.
+As cores escolhidas combinam com a paleta de cores do mapa da Bing, evitando assim um "efeito carnaval".
+
+D)
+
+Por fim, foi utilizado gráfico de linha com ANO e MÊS no eixo X.
+O gráfico de linha funciona muito bem com linhas temporais.
+Além disso, da forma como foi criado, utilizando-se da função de DRILL DOWN, é possível entender a evolução temporal (padrão) e também a média de avaliações por mês.

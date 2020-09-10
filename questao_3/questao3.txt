@@ -1,0 +1,31 @@
+Questão 3
+
+O dataset fornecido são de dados abertos, preenchidos pelo próprio usuário que cadastrou seu imóvel no Airbnb. Logo, minha primeira preocupação seria a qualidade dessa informação.
+
+Minha experiência e conhecimento são extrações e tratamentos de dados utilizando SQL e/ou Power Query.
+Porém, tais ferramentas são melhor quanto utilizadas com datasets mais confiáveis, como é o caso do que uso hoje, do ERP da minha atual empresa.
+Desta forma, eu não utilizaria destas ferramentas para a fase de pré-processamento (ETL), faria esse processo por programação em Python.
+
+Utilizando de bibliotecas como Pandas, Seaborn, Matplotlib e Numpy seria possível carregar a informação e fazer a primeira análise.
+Neste primeiro momento, esta análise seria superficial, voltada para verificar a qualidade dos dados, buscar outliers e valores nulos relevantes que poderiam impactar na interpretação da informação.
+Caso esses fossem encontrados, buscaria mitigar o problema, suprimindo-os ou calculando a média dos dados em questão para substituí-los - tal decisão ficará a cargo do caso em questão e também da política da empresa.
+
+Já com os dados em melhor qualidade, continuaria explorando-os com as funções das bibliotecas já citadas.
+Informações como média, mediana, quartis, máximos e mínimos são facilmente levantadas aqui.
+
+Meu conhecimento com Pyhton ainda é limitado, estou ainda cursando com o Carlos Melo (Sigmoidal), como informado no currículo.
+Porém, mesmo ainda no módulo 3, já ousaria plotar alguns gráficos de dispersão, boxplots, matriz de correlações e heatmaps, já saindo dessa fase inicial com muita informação e conhecimento do dataset.
+
+Concluindo essa primeira fase, de limpeza/tratamento dos dados e geração das primeiras informações, exportaria o arquivo para análise onde é o meu maior conhecimento para análise de dados: PowerBI.
+
+Com os gráficos carregados no Power Query, organizaria de forma clara: dimensões, fatos e relacionamentos.
+Após o carregamento e finalizada a parte de ETL, começaria enfim a análise dos dados, já munido com as informações da fase inicial, complementaria com o uso intenso de fórmulas DAX.
+Criação de gráficos de barras, colunas, linhas, pirâmides (sempre muito boas para se cruzar relacionamentos das variáveis sexo e idade) e principalmente, matrizes.
+Apesar de não serem visualmente tão bonitas em apresentações, para minhas análises consiero elas ótimas, pode se usar grupos, subgrupos e colunas com as variações já calculadas no DAX.
+Admito que essa preferência se dê devido muito tempo passado com contadores. ;)
+
+Fiz uma pequena análise desse dataset, que está hospedado no Github informado, onde coloco na prática alguns conceitos aqui abordados.
+
+Aproveito para convidá-los a ler meus dois artigos no Medium, é novo, não havia criado quando enviei meu currículo. Acredito que ajudará a me conhecer como profissional.
+https://medium.com/@rodrigo.guedes
+https://www.linkedin.com/in/guedesrodrigo/

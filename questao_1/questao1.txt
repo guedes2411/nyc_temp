@@ -1,0 +1,30 @@
+/* QUESTÃO 1 A - COMO FIQUEI NA DÚVIDA DO QUE ESTAVA SENDO PEDIDO, APRESENTO DE DUAS FORMAS: */
+
+/* I */
+
+SELECT [room_type] as 'Tipo de Acomodação', count(distinct [name]) as 'Quantidade'
+  FROM [teste].[dbo].[main$]
+  group by [room_type]
+
+/* II */
+
+SELECT DISTINCT [name] as 'Hosts Distintos', [room_type] as 'Tipo de Hospedagem'
+  FROM [teste].[dbo].[main$]
+  ORDER BY [room_type]
+
+
+/* QUESTÃO 1 B */
+
+SELECT SUM([number_of_reviews]) as 'Total de Reviews', ROUND(AVG([reviews_per_month]),2) as 'Média de Reviews por Mês'
+FROM [teste].[dbo].[main$]
+WHERE [neighbourhood_group] = 'Brooklyn'
+
+
+/* QUESTÃO 1 C */
+
+SELECT [availability_365] as 'Disponibilidade', SUM([availability_365]) as 'Quantidade', MIN([price]) as 'Valor Mínimo', MAX([price]) as 'Valor Máximo', ROUND(AVG([price]),2) as 'Valor Médio'
+FROM [teste].[dbo].[main$]
+WHERE [name] LIKE '%[^a-z]room[^a-z]%'
+AND [availability_365] > 0
+GROUP BY [availability_365]
+ORDER BY [availability_365]
